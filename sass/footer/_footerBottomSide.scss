@@ -1,0 +1,36 @@
+.footer_bottomSide--flexCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBottomSide--flexCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.footerBottomSide--flexCont{
+    p{
+        font-weight: 700;
+    }
+}
+
+.footer_p{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 12px;
+    max-width: 806px;
+}
+
+.footerImg--flexCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}

@@ -1,0 +1,27 @@
+.footer_container{
+    color: $whiteColor;
+}
+
+.footer_topSide--flexCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 0 250px;
+}
+
+.footer_title{
+    font-weight: 700;
+    margin-bottom: 17px;
+    font-size: 24px;
+}
+
+.footer_underTitle{
+    margin-top: 10px;
+}
+
+.footer_topSide--flexCont{
+    ul{
+        max-width: 250px;
+    }
+}

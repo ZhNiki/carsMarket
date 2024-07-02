@@ -1,0 +1,53 @@
+.header_containerLogoWithNav--flexCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.header_containerLogoWithNav{
+    background-color: $blackColor;
+    padding: 30px 0px;
+}
+.header_containerLogoWithNav--bgTransparent{
+    background-color: transparent;
+    // position: absolute;
+    // z-index: 5;
+}
+
+// logo
+
+.header_logo--flexCont {
+    display: flex;
+    align-items: center;
+}
+
+// navigation
+
+.header_navigation--flexCont{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+.header_navigation {
+    font-size: 14px;
+}
+
+.header_navigation_ul--flexCont {
+    display: flex;
+    gap: 35px;
+}
+
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.header_navigation_li{
+    a{
+        color: $whiteColor;
+        font-weight: 700;
+    }
+}
